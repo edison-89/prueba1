@@ -16,9 +16,18 @@ public class Main1 {
 			sumar += n;
 			NumElementos++;
 			System.out.print("Ingrese un número positivo: ");
+			n=lector.nextInt();
+		}
+		if (n==0) {
 			
 		}
-		
+		else {
+			promedio=sumar / NumElementos;
+			
+			System.out.print("el promedio es: "+promedio);
+			
+			System.out.print("numero de elementos: "+NumElementos);
+		}
 	}
 
 }

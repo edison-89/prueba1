@@ -9,11 +9,11 @@ public class Main {
 		Scanner teclado=new Scanner(System.in);
 		int N= teclado.nextInt();
 		
-		while (N<0 && N>0) {
+		while  (N>0) {
 			System.out.println("Ingresar un número:");
 			Scanner teclado2=new Scanner(System.in);
-			int N2= teclado.nextInt();
-			System.out.println(N2);
+			int N= teclado2.nextInt();
+			System.out.println(N);	
 		}
 	}
 }

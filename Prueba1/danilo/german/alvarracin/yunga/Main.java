@@ -13,16 +13,22 @@ public class Main {
 		   la cantidad de números ingresados por el usuario.*/
 
 		Scanner lector=new Scanner(System.in);
-		System.out.println("Ingrese un numero");
-		int numero=lector.nextInt();
-		while(numero!=0 && numero<0) {
-			if(numero>0) {
-				numero++;
-			}
-		}
+		System.out.println("Ingrese un numero:");
+		int nup;
+		int n=lector.nextInt();
 
-		int suma=numero;
-		System.out.println("la suma es :"+suma);
+		while(n!=0 || n>0) {
+			
+			System.out.print("Ingrese un numero:");
+			n=lector.nextInt();
+			 
+		}
+		
+		int suma=n;
+		System.out.println("la suma de los numero es :"+suma);
+		
+	
+
 		
 	}
 

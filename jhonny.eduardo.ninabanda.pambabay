@@ -1,0 +1,39 @@
+package jhonny.eduardo.ninabanda.pambabay;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner Lector = new Scanner(System.in);
+
+
+		int N;
+	
+
+		System.out.print("Ingrese un numero: ");
+		N = Lector.nextInt();
+
+		int i = 1;
+		int n=0 ;
+		int R;
+
+		while (N > 0) {
+
+			n = n+1;
+			System.out.println(" Ingrese Numero Positivo :");
+			
+			if(N == 0) {
+				
+			R= N+N;
+			
+			
+			}
+
+		}
+		}
+		
+
+	}
